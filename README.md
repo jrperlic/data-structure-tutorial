@@ -1,12 +1,16 @@
 # Python Data Structure Tutorial
 
-Welcome to the Python Data Structure Tutorial. Every beginning Python programmer should understand these basic topics:
+## Introduction
+
+Welcome to the Python Data Structure Tutorial! If you're familiar with functional programming in Python and want to improve your coding skills, then you've come to the right place.
+
+The following data structures are covered in this tutorial:
 
 - [Stack](1-stack.md)
 - [Linked List](2-linked-list.md)
 - [Tree](3-tree.md)
 
-Each module will contain descriptions and examples. At the end of each module, you will find a problem to solve on your own. You should only look at the solution after you have attempted to solve the problem first.
+There are descriptions and examples in each module. You will find a problem to solve on your own at the end of each module. You should only look at the solution after you have attempted to solve the problem first.
 
 ## Contact
 
