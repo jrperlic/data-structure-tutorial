@@ -1,4 +1,4 @@
-# Stack
+![Stack Banner Image](images/stack.jpg)
 
 ## Introduction
 

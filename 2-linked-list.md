@@ -1,4 +1,4 @@
-# Linked List
+![Linked List Banner Image](images/linked-list.jpg)
 
 ## Introduction
 

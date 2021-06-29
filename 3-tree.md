@@ -1,4 +1,4 @@
-# Tree
+![Tree Banner Image](images/tree.jpg)
 
 ## Introduction
 
