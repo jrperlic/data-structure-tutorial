@@ -1,8 +1,8 @@
-# Python Data Structure Tutorial
+![Tutorial Banner Image](images/tutorial.jpg)
 
 ## Introduction
 
-Welcome to the Python Data Structure Tutorial! If you're familiar with functional programming in Python and want to improve your coding skills, then you've come to the right place.
+Welcome to the Python Data Structures Tutorial! If you're familiar with functional programming in Python and want to improve your coding skills, then you've come to the right place.
 
 ## Overview
 
