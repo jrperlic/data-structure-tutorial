@@ -22,17 +22,42 @@ This rule of pushing and popping from the back of the stack is known as **Last I
 
 ### Performance
 
-| Stack Operation | Python Code | Performance |
-| --- | --- | --- |
-| push(value) | `stack.append(value)` | O(1)* |
-| pop() | `stack.pop()` | O(1)* |
-| size() | `len(stack)` | O(1)* |
-| empty() | `if len(stack) == 0:` | O(1)* |
+| Stack Operation | Python Code | Performance
+| --- | --- | ---
+| **push** | `stack.append(value)` | O(1)*
+| **pop** | `stack.pop()` | O(1)*
+| **size** | `len(stack)` | O(1)*
+| **empty** | `if len(stack) == 0:` | O(1)*
+
+_*Note: The performance of these operations are based on the performance of the dynamic array._
 
 As you can see, the overall performance of the stack is very good.
 
 ## The Function Stack
 
+We use stacks all the time in software. This is because **functions** use the stack.
+
+In Python, when a function is called, it is pushed to the stack.
+
 ## Example
+
+```python
+stack = []
+stack.append("Moby Dick")
+stack.append("The Great Gatsby")
+stack.append("Hamlet")
+stack.pop()
+stack.append("The Iliad")
+stack.append("Pride and Prejudice")
+stack.pop()
+stack.append("To Kill a Mockingbird")
+stack.append("Gulliver's Travels")
+stack.append("Don Quixote")
+stack.pop()
+stack.pop()
+stack.pop()
+stack.pop()
+print(stack) # What will print?
+```
 
 ## Problem to Solve

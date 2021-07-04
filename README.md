@@ -29,9 +29,27 @@ You should already be familiar with Python lists and dictionaries. Both are prim
 
 ### What is performance?
 
-In computer science, performance is a measure of how long it takes code to run.
+In computer science, performance is a measure of how long it takes code to run. [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) is the language we use for talking about code performance for large sets of data.
 
-[Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) is the language we use for talking about code performance.
+Consider this Python code:
+
+```python
+def sum(numbers):
+    sum = 0
+    for number in numbers:
+        sum += number
+    return sum
+```
+
+The size of the data in `sum` is based on the size of `numbers`. For the purposes of this example, we will say that the size of `numbers` is `n`. Because of the `for` loop in the code, the function will run `n` times. Therefore, we say that the big O of `sum` is O(n).
+
+| Time Complexity | Big O
+| --------------- | -----
+| **Constant** | O(1)
+| **Logarithmic** | O(log n)
+| **Linear** | O(n)
+| **Quadratic** | O(n^2)
+| **Exponential** | O(2^n)
 
 ## Contact
 
