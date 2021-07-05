@@ -37,9 +37,30 @@ As you can see, the overall performance of the stack is very good.
 
 We use stacks all the time in software. This is because **functions** use the stack.
 
-In Python, when a function is called, it is pushed to the stack.
+In Python, when a function is called, it is pushed to the stack. In this example code, we begin with an empty stack. Function `C` is pushed, followed by `B` and then `A`. Once `A` is finished, it is popped and `B` resumes. And when `B` is popped, it goes to `C`. When `C` is popped, the function stack is empty once again.
+
+```python
+def A():
+    return
+
+def B():
+    A()
+    return
+
+def C():
+    B()
+    return
+
+C()
+```
+
+If you're still confused, this diagram may help:
+
+![Function Stack Diagram](images/function-stack.jpg)
 
 ## Example
+
+Let's revisit the stack of books analogy from earlier. Take a look at the code below:
 
 ```python
 stack = []
@@ -57,7 +78,9 @@ stack.pop()
 stack.pop()
 stack.pop()
 stack.pop()
-print(stack) # What will print?
+print(stack)
 ```
+
+Can you predict what will be printed?
 
 ## Problem to Solve
