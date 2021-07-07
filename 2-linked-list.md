@@ -30,13 +30,14 @@ When inserting a node into a linked list, there are three scenarios to consider:
 
 All three scenarios are similar, yet different enough that they deserve separate explanations.
 
-Note: For the code examples, make sure to import `collections.deque`.
+_Note: For the code examples, make sure to import `deque`._
 
 ### Inserting At the Head
 
 ```python
 llist = deque("bcd")
 llist.appendleft("a")
+# deque(['a', 'b', 'c', 'd'])
 ```
 
 ### Inserting At the Tail
@@ -44,6 +45,7 @@ llist.appendleft("a")
 ```python
 llist = deque("bcd")
 llist.append("e")
+# deque(['b', 'c', 'd', 'e'])
 ```
 
 ### Inserting Into the Middle
@@ -51,6 +53,7 @@ llist.append("e")
 ```python
 llist = deque("abde")
 llist.insert(2, "c")
+# deque(['a', 'b', 'c', 'd', 'e'])
 ```
 
 ## Removing
@@ -58,21 +61,43 @@ llist.insert(2, "c")
 ```python
 llist = deque("abcd")
 llist.popleft()
+# deque(['b', 'c', 'd'])
 ```
 
 ```python
 llist = deque("bcde")
 llist.pop()
+# deque(['b', 'c', 'd'])
 ```
 
 ```python
 llist = deque("abcde")
 llist.remove("c")
+# deque(['a', 'b', 'd', 'e'])
 ```
 
 ## Accessing
 
-### Performance
+```python
+llist = deque("abcdef")
+print(llist.index("e", 0, 5))
+# 4
+```
+
+## Performance
+
+| Linked List Operation | Python Code | Performance
+| --- | --- | ---
+| **insert_head** | `llist.appendleft(value)` | O(1)
+| **insert_tail** | `llist.append(value)` | O(1)
+| **insert** | `llist.insert(index, value)` | O(n)*
+| **remove_head** | `llist.popleft()` | O(1)
+| **remove_tail** | `llist.pop()` | O(1)
+| **remove** | `llist.remove(value)` | O(n)*
+| **size** | `len(llist)` | O(1)
+| **empty** | `if len(llist) == 0:` | O(1)
+
+_*Note: Inserting at and removing from the middle is slower because the index can't be found without using a loop._
 
 ## Example
 

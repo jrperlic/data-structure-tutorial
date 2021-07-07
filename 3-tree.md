@@ -10,7 +10,7 @@
 
 ## Traversing
 
-### Performance
+## Performance
 
 ## Example
 

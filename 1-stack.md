@@ -14,24 +14,11 @@ Imagine a stack of books resting on a table, like so:
 
 ![Stack of Books](images/stack-of-books.png)
 
-Now, imagine yourself taking a book (popping) from the stack. Where did you take the book from? The top, the bottom, the middle?
+Now, picture yourself taking a book (popping) from the stack. Where did you take the book from? The top, the bottom, the middle?
 
 When it comes to programming, we always take the element (the book) from the back of the stack (which, in our example, is at the top). Likewise, we always append the element to the back of the stack.
 
 This rule of pushing and popping from the back of the stack is known as **Last In First Out (LIFO)** because the _last_ element _in_ is also the _first_ to be taken _out_.
-
-### Performance
-
-| Stack Operation | Python Code | Performance
-| --- | --- | ---
-| **push** | `stack.append(value)` | O(1)*
-| **pop** | `stack.pop()` | O(1)*
-| **size** | `len(stack)` | O(1)*
-| **empty** | `if len(stack) == 0:` | O(1)*
-
-_*Note: The performance of these operations are based on the performance of the dynamic array._
-
-As you can see, the overall performance of the stack is very good.
 
 ## The Function Stack
 
@@ -57,6 +44,19 @@ C()
 If you're still confused, this diagram may help:
 
 ![Function Stack Diagram](images/function-stack.jpg)
+
+## Performance
+
+| Stack Operation | Python Code | Performance
+| --- | --- | ---
+| **push** | `stack.append(value)` | O(1)*
+| **pop** | `stack.pop()` | O(1)*
+| **size** | `len(stack)` | O(1)*
+| **empty** | `if len(stack) == 0:` | O(1)*
+
+_*Note: The performance of these operations are based on the performance of the dynamic array. A linked list (`deque` in Python) would also give you O(1) for the stack._
+
+As you can see, the overall performance of the stack is very good.
 
 ## Example
 
