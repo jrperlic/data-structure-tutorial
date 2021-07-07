@@ -22,11 +22,53 @@ Before we move on, you should know that a linked list is organized differently f
 
 ## Inserting
 
-### Performance
+When inserting a node into a linked list, there are three scenarios to consider:
+
+1. [Inserting at the head](#inserting-at-the-head).
+2. [Inserting at the tail](#inserting-at-the-tail).
+3. [Inserting into the middle](#inserting-into-the-middle).
+
+All three scenarios are similar, yet different enough that they deserve separate explanations.
+
+Note: For the code examples, make sure to import `collections.deque`.
+
+### Inserting At the Head
+
+```python
+llist = deque("bcd")
+llist.appendleft("a")
+```
+
+### Inserting At the Tail
+
+```python
+llist = deque("bcd")
+llist.append("e")
+```
+
+### Inserting Into the Middle
+
+```python
+llist = deque("abde")
+llist.insert(2, "c")
+```
 
 ## Removing
 
-### Performance
+```python
+llist = deque("abcd")
+llist.popleft()
+```
+
+```python
+llist = deque("bcde")
+llist.pop()
+```
+
+```python
+llist = deque("abcde")
+llist.remove("c")
+```
 
 ## Accessing
 
