@@ -101,4 +101,27 @@ _*Note: Inserting at and removing from the middle is slower because the index ca
 
 ## Example
 
+Take a look at the `mystery1` and `mystery2` functions:
+
+```python
+def mystery1(ll):
+    for i in reversed(ll):
+        print(i, end=" ")
+    print("")
+
+def mystery2(ll):
+    for i in range(0, len(ll), 2):
+        print(ll[i], end=" ")
+    for i in range(1, len(ll), 2):
+        print(ll[i], end=" ")
+
+
+ll = deque([1, 2, 3, 4, 5])
+
+mystery1(ll)
+mystery2(ll)
+```
+
+Can you predict what will be printed?
+
 ## Problem to Solve
