@@ -126,12 +126,12 @@ Can you predict what will be printed?
 
 ## Problem to Solve
 
-You have a linked list that contains $N$ integers.
+You have a linked list that contains **n** integers.
 
 Here is your task:
 
-1. Find all **adjacent even integers** within the list. For example, if the list is $\left\{2,4,5,6,8,10\right\}$, the adjacent even integers are $\left\{2,4\right\}$ and $\left\{6,8,10\right\}$.
-1. Reverse the elements: $\left\{2,4\right\}$ becomes $\left\{4,2\right\}$, $\left\{6,8,10\right\}$ becomes $\left\{10,8,6\right\}$.
+1. Find all **adjacent even integers** within the list. For example, if the list is `[2,4,5,6,8,10]`, the adjacent even integers are `[2,4]` and `[6,8,10]`.
+1. Reverse the elements: `[2,4]` becomes `[4,2]`, and `[6,8,10]` becomes `[10,8,6]`.
 1. Display the new linked list.
 
 ### I/O
