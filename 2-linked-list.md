@@ -28,9 +28,7 @@ When inserting a node into a linked list, there are three scenarios to consider:
 2. [Inserting at the tail](#inserting-at-the-tail).
 3. [Inserting into the middle](#inserting-into-the-middle).
 
-All three scenarios are similar, yet different enough that they deserve separate explanations.
-
-_Note: For the code examples, make sure to import `deque`._
+All three scenarios are similar, yet different enough that they deserve separate explanations. (For the code examples, make sure to import `deque`.)
 
 ### Inserting At the Head
 
