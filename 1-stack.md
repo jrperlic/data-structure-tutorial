@@ -41,7 +41,7 @@ def C():
 C()
 ```
 
-If you're still confused, this diagram may help:
+The following diagram is a representation of the stack from the example:
 
 ![Function Stack Diagram](images/function-stack.jpg)
 
@@ -54,7 +54,7 @@ If you're still confused, this diagram may help:
 | **size** | `len(stack)` | O(1)*
 | **empty** | `if len(stack) == 0:` | O(1)*
 
-_*Note: The performance of these operations are based on the performance of the dynamic array. A linked list (`deque` in Python) would also give you O(1) for the stack._
+_*Note: The performance of these operations are based on the performance of the dynamic array. A linked list would also give you O(1) for the stack._
 
 As you can see, the overall performance of the stack is very good.
 
@@ -84,3 +84,27 @@ print(stack)
 Can you predict what will be printed?
 
 ## Problem to Solve
+
+You are a bored volunteer at your local library. Mr. Edgar, the head librarian, asks you to make sure the bookends are balanced on every shelf.
+
+Here is your task:
+
+1. Using the stack, find all the **bookends** on the shelf. (A book is `|`, an opening bookend is `[`, and a closing bookend is `]`.)
+1. Determine whether the bookends are **balanced**. The bookends are considered balanced if:
+    * Each opening bookend can be paired with a closing bookend.
+    * No _unpaired_ closing bookend is found before an opening bookend.
+1. Print `True` if the bookends are balanced, or `False` if they are not.
+
+### I/O
+
+| Example Input | Example Output
+| ------------ | -------------
+| `[]` | `True`
+| `][` | `False`
+| `[][` | `False`
+| <code>[&#124;&#124;&#124;]</code> | `True`
+| <code>&#124;&#124;&#124;&#124;</code> | `True`
+
+### Hint
+
+[Pop!](https://www.w3schools.com/python/ref_list_pop.asp) goes the weasel.
