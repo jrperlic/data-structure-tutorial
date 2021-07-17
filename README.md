@@ -20,6 +20,7 @@ There are descriptions and examples in each module. You will find a problem to s
 
 * [What are data structures?](#what-are-data-structures)
 * [What is performance?](#what-is-performance)
+* [What do I do when I'm stuck on a problem?](#what-do-i-do-when-im-stuck-on-a-problem)
 * [Where can I learn more about data structures?](#where-can-i-learn-more-about-data-structures)
 
 ### What are data structures?
@@ -32,9 +33,9 @@ You should already be familiar with Python lists and dictionaries. Both are prim
 
 In computer science, performance is a measure of how long it takes code to run. [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) is the language we use for talking about code performance for large sets of data.
 
-### I'm stuck. What do I do?
+### What do I do when I'm stuck on a problem?
 
-If you're stuck on a problem, consider following this [four step process](https://asq.org/quality-resources/problem-solving):
+When you're stuck on a problem, consider following this [four step process](https://asq.org/quality-resources/problem-solving):
 
 1. Understand the Problem
 1. Plan and Design the Solution
