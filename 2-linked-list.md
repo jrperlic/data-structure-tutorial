@@ -120,7 +120,7 @@ mystery1(ll)
 mystery2(ll)
 ```
 
-Can you predict what will be printed?
+Can you predict [what will be printed](code/2-example-solution.py)?
 
 ## Problem to Solve
 
@@ -141,3 +141,7 @@ Here is your task:
 ### Hint
 
 Use the [Stack](1-stack.md), Luke!
+
+### Solution
+
+Click [here](code/2-problem-solution.py) to see the solution. Remember, you should only look at it after you have attempted to solve the problem first.

@@ -81,7 +81,7 @@ stack.pop()
 print(stack)
 ```
 
-Can you predict what will be printed?
+Can you predict [what will be printed](code/1-example-solution.py)?
 
 ## Problem to Solve
 
@@ -108,3 +108,7 @@ Here is your task:
 ### Hint
 
 [Pop!](https://www.w3schools.com/python/ref_list_pop.asp) goes the weasel.
+
+### Solution
+
+Click [here](code/1-problem-solution.py) to see the solution. Remember, you should only look at it after you have attempted to solve the problem first.
