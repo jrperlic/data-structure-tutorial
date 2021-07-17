@@ -1,0 +1,16 @@
+stack = []
+stack.append("Moby Dick")
+stack.append("The Great Gatsby")
+stack.append("Hamlet")
+stack.pop()
+stack.append("The Iliad")
+stack.append("Pride and Prejudice")
+stack.pop()
+stack.append("To Kill a Mockingbird")
+stack.append("Gulliver's Travels")
+stack.append("Don Quixote")
+stack.pop()
+stack.pop()
+stack.pop()
+stack.pop()
+print(stack) # ['Moby Dick', 'The Great Gatsby']

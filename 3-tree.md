@@ -19,7 +19,7 @@ A **binary search tree (BST)** is a tree in which the nodes link to no more than
 
 ![Binary Tree](images/binary-tree.png)
 
-Furthermore, there is a special rule that must be followed when data is added to the BST: If the data value is less than the parent node, it is put in the left subtree. If the value is greater than the parent node, it is put in the right subtree. _The data in a BST is always sorted_ from left to right and from least to greatest.
+Furthermore, there is a special rule that must be followed when data is added to the BST. If the data value is less than the parent node, it is put in the left subtree. If the value is greater than the parent node, it is put in the right subtree. _The data in a BST is always sorted_ from left to right and from least to greatest.
 
 ## Recursion
 
@@ -45,3 +45,7 @@ Furthermore, there is a special rule that must be followed when data is added to
 ## Example
 
 ## Problem to Solve
+
+### Solution
+
+Click [here](code/3-problem-solution.py) to see the solution. Remember, you should only look at it after you have attempted to solve the problem first.
