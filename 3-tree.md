@@ -23,6 +23,25 @@ Furthermore, there is a special rule that must be followed when data is added to
 
 ## Recursion
 
+Before you start coding, it's important that you know about **recursion**. In programming, it's when a function calls itself:
+
+```python
+def factorial(n):
+    """This is a recursive function that
+    finds the factorial of an integer."""
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+n = 4  # Try it with different numbers!
+print(f"The factorial of {n} is {factorial(n)}.")
+```
+
+The `factorial` function repeatedly calls itself with a decreasing number `n`. But how does the function know when to stop? We use the **base case**. In this case, when `n` is reduced to `1`, the function ends.
+
+Remember that special rule about the BST? Recursion is what's used to sort the data.
+
 ## Inserting
 
 ```python

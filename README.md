@@ -33,19 +33,6 @@ You should already be familiar with Python lists and dictionaries. Both are prim
 
 In computer science, performance is a measure of how long it takes code to run. [Big O notation](https://en.wikipedia.org/wiki/Big_O_notation) is the language we use for talking about code performance for large sets of data.
 
-### What do I do when I'm stuck on a problem?
-
-When you're stuck on a problem, consider following this [four step process](https://asq.org/quality-resources/problem-solving):
-
-1. Understand the Problem
-1. Plan and Design the Solution
-1. Implement the Solution
-1. Evaluate the Solution
-
-### Where can I learn more about data structures?
-
-If you want to learn more about data structures, there are many online resources available. Remember, [Google is your best friend](https://giybf.com/).
-
 Consider this Python code:
 
 ```python
@@ -66,9 +53,22 @@ The size of the data in `sum` is based on the size of `numbers`. For the purpose
 | **Quadratic** | O(n^2)
 | **Exponential** | O(2^n)
 
+### What do I do when I'm stuck on a problem?
+
+When you're stuck on a problem, consider following this [four step process](https://asq.org/quality-resources/problem-solving):
+
+1. Understand the Problem
+1. Plan and Design the Solution
+1. Implement the Solution
+1. Evaluate the Solution
+
+### Where can I learn more about data structures?
+
+If you want to learn more about data structures, there are many online resources available. Remember, [Google is your best friend](https://giybf.com/).
+
 ## Contact
 
-For questions and comments, please send them to:
+For additional questions and comments, please send them to:
 
 Jared Perlic, BYU-Idaho, CSE 212, Section 2
 
