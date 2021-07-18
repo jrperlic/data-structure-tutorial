@@ -25,6 +25,19 @@ Furthermore, there is a special rule that must be followed when data is added to
 
 ## Inserting
 
+```python
+tree = Tree()
+tree.create_node("Aaron", "aaron")  # root node
+tree.create_node("Barry", "barry", parent="aaron")
+tree.create_node("Charlie", "charlie", parent="aaron")
+tree.show()
+'''
+Aaron
+├── Barry
+└── Charlie
+'''
+```
+
 (For the code examples, make sure to install [treelib](https://treelib.readthedocs.io/en/latest/).)
 
 ## Traversing
@@ -33,14 +46,13 @@ Furthermore, there is a special rule that must be followed when data is added to
 
 | Tree Operation | Python Code | Performance
 | --- | --- | ---
-| **insert** |  | O(log n)
-| **remove** |  | O(log n)
-| **contains** |  | O(log n)
-| **traverse_forward** |  | O(log n)
-| **traverse_backward** |  | O(log n)
+| **insert** | `tree.add_node(nid, parent)` | O(log n)
+| **remove** | `tree.remove_node(nid)` | O(log n)
+| **contains** | `tree.contains()` | O(log n)
+| **traverse** |  | O(log n)
 | **height** | `tree.depth()` | O(log n)
-| **size** |  | O(1)
-| **empty** |  | O(1)
+| **size** | `tree.size()` | O(1)
+| **empty** | `if tree.size() == 0:` | O(1)
 
 ## Example
 
