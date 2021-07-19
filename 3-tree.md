@@ -61,6 +61,16 @@ Aaron
 
 ## Traversing
 
+When we want to display all the data in a tree, we can use **traversal**. In this tutorial, we will use **in-order traversal**, which visits each node from smallest to largest (according to the aforementioned [special rule](#binary-trees) of BSTs).
+
+![In-Order Traversal](images/in-order-traversal.jpg)
+
+For example, if we were to use in-order traversal for the tree shown above, the nodes would be visited in the following order:
+
+```
+4, 10, 12, 15, 18, 22, 24, 25, 31, 35, 44, 50, 66, 70, 90
+```
+
 ## Performance
 
 | Tree Operation | Python Code | Performance
@@ -68,12 +78,27 @@ Aaron
 | **insert** | `tree.add_node(nid, parent)` | O(log n)
 | **remove** | `tree.remove_node(nid)` | O(log n)
 | **contains** | `tree.contains()` | O(log n)
-| **traverse** |  | O(log n)
+| **traverse** | `for node in tree.nodes:`* | O(log n)
 | **height** | `tree.depth()` | O(log n)
 | **size** | `tree.size()` | O(1)
 | **empty** | `if tree.size() == 0:` | O(1)
 
+_*Note: This code will not perform an in-order traversal._
+
 ## Example
+
+Take a look at this code:
+
+```python
+tree.create_node("B", 16, parent=25)
+tree.create_node("C", 33, parent=25)
+tree.create_node("D", 39, parent=33)
+tree.create_node("E", 5, parent=16)
+tree.create_node("F", 24, parent=16)
+tree.create_node("G", 30, parent=33)
+```
+
+Can you predict what the [in-order traversal of this tree](code/3-example-solution.py) will be?
 
 ## Problem to Solve
 
