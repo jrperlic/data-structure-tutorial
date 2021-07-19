@@ -55,7 +55,7 @@ The size of the data in `sum` is based on the size of `numbers`. For the purpose
 
 ### What do I do when I'm stuck on a problem?
 
-When you're stuck on a problem, consider following this [four step process](https://asq.org/quality-resources/problem-solving):
+When you're stuck on a problem, consider following this [four-step process](https://asq.org/quality-resources/problem-solving):
 
 1. Understand the Problem
 1. Plan and Design the Solution

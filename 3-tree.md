@@ -6,12 +6,16 @@ The third and final data structure we will be looking at in this tutorial is the
 
 A **tree** is a collection of nodes, similar to a [linked list](2-linked-list.md), that is organized in a **hierarchical** structure. What does that mean? In the case of a tree, it means that the nodes are organized into two groups: **parents**, and **children**.
 
-A parent node is a node that links to other nodes. Likewise, a child node is connected to the parent. (It is possible for a node to be _both_ a parent and child.)
+A parent node is a node that links to other nodes. Likewise, a child node is connected to the parent. (A node can be _both_ a parent and child.)
 
 Two more things before we continue:
 
 1. The topmost node is called the **root**.
 1. A node that connects to no other node is called a **leaf**.
+
+## Usage
+
+Where and how are trees used in programming? They are used in [chess engines](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) to find the best move and in [data compression algorithms](https://en.wikipedia.org/wiki/Huffman_coding).
 
 ## Binary Trees
 
@@ -23,7 +27,7 @@ Furthermore, there is a special rule that must be followed when data is added to
 
 ## Recursion
 
-Before you start coding, it's important that you know about **recursion**. In programming, it's when a function calls itself:
+Before you start coding, you must know about **recursion**. In programming, it's when a function calls itself:
 
 ```python
 def factorial(n):

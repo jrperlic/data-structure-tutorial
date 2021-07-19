@@ -20,6 +20,10 @@ Before we move on, you should know that a linked list is organized differently f
 * The first node is called the **head** and, as you might have guessed, the last node is called the **tail**.
 * Some linked lists are extra fancy, maintaining a link to the next node as well as the previous node. When a linked list uses **bi-directional** linking, it is called a **doubly-linked list**.
 
+## Usage
+
+Where and how are linked lists used in programming? They can usually be found in a GPS, traveling from origin to destination through all nodes. Furthermore, linked lists are preferred for their [fast insertion](#inserting) and [removal](#removing).
+
 ## Inserting
 
 When inserting a node into a linked list, there are three scenarios to consider:
@@ -95,7 +99,7 @@ print(llist.index("e", 0, 5))
 | **size** | `len(llist)` | O(1)
 | **empty** | `if len(llist) == 0:` | O(1)
 
-_*Note: Inserting at and removing from the middle is slower because the index can't be found without using a loop._
+_*Note: Inserting at and removing from the middle is slower – the middle can't be found without using a loop!_
 
 ## Example
 

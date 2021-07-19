@@ -4,9 +4,13 @@
 
 The first data structure we will be looking at in this tutorial is the stack.
 
-A **stack** is a collection of elements stored in a list. There are many actions we can perform on a stack depending on what we need. However, for the purposes of this tutorial, there are two main operations we perform on a stack: **pushing** and **popping**.
+A **stack** is a collection of elements stored in a list. There are many actions we can perform on a stack depending on what we need. However, for this tutorial, there are two main operations we perform on a stack: **pushing** and **popping**.
 
 When we push, we add an element to the back of the stack. And when we pop, we remove an element from the back of the stack.
+
+## Usage
+
+Where and how are stacks used in programming? They are often found in word processors, ensuring the `Undo` button works properly. Also, as you will see later, stacks are used to [implement functions](#the-function-stack).
 
 ## Last In, First Out
 
@@ -41,7 +45,7 @@ def C():
 C()
 ```
 
-The following diagram is a representation of the stack from the example:
+The following diagram is a representation of the stack from the above example:
 
 ![Function Stack Diagram](images/function-stack.jpg)
 
@@ -55,8 +59,6 @@ The following diagram is a representation of the stack from the example:
 | **empty** | `if len(stack) == 0:` | O(1)*
 
 _*Note: The performance of these operations are based on the performance of the dynamic array. A linked list would also give you O(1) for the stack._
-
-As you can see, the overall performance of the stack is very good.
 
 ## Example
 
