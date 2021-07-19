@@ -102,6 +102,42 @@ Can you predict what the [in-order traversal of this tree](code/3-example-soluti
 
 ## Problem to Solve
 
+Congratulations! You've made it to the end of the tutorial. This is the final problem. Good luck!
+
+Here is your task:
+
+1. Write a function called `create_tree` that creates a tree from a list `L` of `7` elements.
+1. Write a function called `find_closest` that finds the node that is closest to a given value in a tree.
+1. Write a function called `remove_node` that removes a node with a given value in a tree.
+1. Call each function and display the result.
+
+### I/O
+
+```
+List of 7 elements: 1 2 3 4 5 6 7
+1
+├── 2
+│   ├── 4
+│   └── 5
+└── 3
+    ├── 6
+    └── 7
+
+Target: 11
+The closest node to the target of 11 is 7.
+Node to remove: 3
+1
+└── 2
+    ├── 4
+    └── 5
+
+Node 3 was removed.
+```
+
+### Hint
+
+Do you [comprehend lists](https://www.w3schools.com/python/python_lists_comprehension.asp)?
+
 ### Solution
 
 Click [here](code/3-problem-solution.py) to see the solution. Remember, you should only look at it after you have attempted to solve the problem first.
